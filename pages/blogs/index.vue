@@ -1,7 +1,11 @@
 <template>
  <div>
    <div v-for="b in blogs" :key="b.slug">
-     <nuxt-link :to="'/blogs/'+ b.slug">{{b.title}} {{b.date}}</nuxt-link>
+       <v-card class="mx-auto my-12" max-width="800">
+            <v-card-title class="white">
+                <nuxt-link :to="'/blogs/'+ b.slug">{{b.title}} {{b.date}}</nuxt-link>
+            </v-card-title>
+       </v-card>
    </div>
  </div>
 </template>
