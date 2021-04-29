@@ -11,7 +11,7 @@
       <div class="text-h5 mt-15 mb-5 primary">Introduction</div>
       <p>はじめまして、Rinrerunです。<br>
       サイバーセキュリティと技術書執筆に興味があります。<br>
-      執筆依頼・イベントなどの連絡はTwitterのDMにて受け付けています。<br>
+      執筆依頼・イベント等の連絡はTwitterのDMにて受け付けています。<br>
       Twitter @rinruren</p>
       </div>
     </v-col>

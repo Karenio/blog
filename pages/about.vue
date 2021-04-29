@@ -15,7 +15,7 @@
     <div class="text-h5 mb-3 mt-10">Others</div>
     <div class="text-p">Writing Git GigHub VSCode AWS Netlify</div>
     <div class="text-h5 mb-3 mt-10">Qualification</div>
-    <div class="text-p">剣道三段 漢検二級</div>
+    <div class="text-p">剣道三段 漢検二級 基本情報技術者試験</div>
 
     <div class="text-h5 mt-15 mb-5 primary">Activities</div>
     
@@ -93,8 +93,13 @@ export default {
           },{
             color: 'primary',
             icon: 'mdi-star',
-            name: "2020.3 SecHack365 学習駆動コース コンテンツゼミ",
+            name: "2021.3 SecHack365 学習駆動コース コンテンツゼミ",
             values: "修了"
+          },{
+            color: 'accent',
+            icon: 'mdi-star',
+            name: "2021.3 基本情報技術者試験",
+            values: "基本情報技術者試験　合格"
           },],
       };
   },
