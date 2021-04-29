@@ -5,14 +5,6 @@
         <div class="py-3">
           {{ blogs.date }}
           <h1>{{ blogs.title }}</h1>
-          <div class="pb-3">
-          <!--<tag-tip
-            v-for="tag in article.tags"
-            :key="tag"
-            class="my-1 mr-2"
-            :tag="tag"
-          ></tag-tip>-->
-          </div>
           <nuxt-content :document="blogs" />
           <div class="button">
             <a href="../blogs">
